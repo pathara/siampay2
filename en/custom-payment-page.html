@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="en" id="html">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Payment Page | SiamPay</title>
+    <meta name="description" content="Custom Payment Page is a value-added solution for SiamPay which allows merchants to customize the payment page based on their corporate design and branding." />
+    <meta name="keywords" content="customized payment page, branding, custom payment page" />
+    <link rel="canonical" href="https://www.siampay.com/en/custom-payment-page.html" />
+    <meta property="og:locale" content="en_TH" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Custom Payment Page | SiamPay" />
+    <meta property="og:description" content="Custom Payment Page is a value-added solution for SiamPay which allows merchants to customize the payment page based on their corporate design and branding." />
+    <meta property="og:url" content="https://www.siampay.com/en/custom-payment-page.html" />
+    <meta property="og:site_name" content="SiamPay" />
+
+    <meta name="author" content="SiamPay" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@siampay" />
+    <meta name="twitter:creator" content="@siampay" />
+    <meta name="twitter:title" content="Custom Payment Page | SiamPay" />
+    <meta name="twitter:description" content="Custom Payment Page is a value-added solution for SiamPay which allows merchants to customize the payment page based on their corporate design and branding." />
+    <meta name="twitter:domain" content="SiamPay" />
+
+    <!-- <link href="https://plus.google.com/+PesoPay" rel="publisher"> -->
+    <meta itemprop="name" content="Custom Payment Page is a value-added solution for SiamPay which allows merchants to customize the payment page based on their corporate design and branding." />
+ 
+    <link href="../css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="../font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="../css/animate.css" rel="stylesheet" />
+    <link href="../css/style.css" rel="stylesheet">
+    <link href="../color/default.css" rel="stylesheet">
+    <link href="../css/mytweak.css" rel="stylesheet">
+    <link href="../css/sidebar-transition.css" rel="stylesheet">
+    <link href="../css/select-country.css" rel="stylesheet">
+    <link rel="shortcut icon" href="../images/siampay.ico">
+    <script type="text/javascript" id="inspectletjs">
+        window.__insp = window.__insp || [];
+        __insp.push(['wid', 1179067987]);
+        (function() {
+            function ldinsp() {
+                var insp = document.createElement('script');
+                insp.type = 'text/javascript';
+                insp.async = true;
+                insp.id = "inspsync";
+                insp.src = ('https:' == document.location.protocol ? 'https' : 'http') + '://cdn.inspectlet.com/inspectlet.js';
+                var x = document.getElementsByTagName('script')[0];
+                x.parentNode.insertBefore(insp, x);
+            };
+            document.readyState != "complete" ? (window.attachEvent ? window.attachEvent('onload', ldinsp) : window.addEventListener('load', ldinsp, false)) : ldinsp();
+        })();
+    </script>
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/jquery.min.js"></script>
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+    <link type="text/css" rel="stylesheet" href="../featherlight/featherlight.min.css" title="Featherlight Styles" />
+    <script src="../featherlight/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+    <style>
+        .lightbox {
+            display: none;
+        }
+        
+        .border_overlay meshim_widget_widgets_BorderOverlay {
+            display: none !important;
+        }
+    </style>
+<!--swith laguage-->
+
+<script type="text/javascript">
+<!--
+function changeurl(){
+
+	$swurl = window.location.href.replace('/en/', '/th/');
+   	 window.location = $swurl;
+}
+//-->
+</script>
+<!-- end switch language -->
+</head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-custom" class="cbp-spmenu-push">
+    <nav id="navbar" class="mainpage navbar navbar-custom navbar-customAni navbar-fixed-top" role="navigation">
+        <div class="searchBox">
+            <div class="container">
+                <script>
+                    (function() {
+                        var cx = '001043899184284136783:7b6xquxwymq';
+                        var gcse = document.createElement('script');
+                        gcse.type = 'text/javascript';
+                        gcse.async = true;
+                        gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//www.google.com/cse/cse.js?cx=' + cx;
+                        var s = document.getElementsByTagName('script')[0];
+                        s.parentNode.insertBefore(gcse, s);
+                    })();
+                </script>
+                <gcse:searchbox-only resultsUrl="search-result.html"></gcse:searchbox-only>
+                <div class="search-close-btn"><img src="../images/search-close-btn.png" width="31" height="27"></div>
+            </div>
+        </div>
+        <div class="topnav ip">
+            <div class="container">
+                <div class="col-lg-6 text-left cta-top"> <img src="../images/icon-email-white.png" align="absmiddle">
+                    <a class="sales"></a> <img style="padding-left:20px;" align="absmiddle" src="../images/icon-phone-white.png"> <span class="telno"></span> </div>
+                <div class="col-lg-6 text-right application"> <a href="javascript:changeurl()" ><strong class="switchlang"><em>ภาษาไทย
+</em></strong></a>&nbsp;&nbsp;&nbsp;&nbsp; 
+                    <select onchange="javascript:change(this)">
+                        <option value="hk" >HONG KONG</option>
+                        <option value="cn" >CHINA</option>
+                        <option value="sg" >SINGAPORE</option>
+                        <option value="ph" >PHILIPPINES</option>
+                        <option selected="selected" value="th" >THAILAND</option>
+                        <option value="my" >MALAYSIA</option>
+                        <option value="in" >INDIA</option>
+                        <option value="vn" >VIETNAM</option>
+                        <option value="id" >INDONESIA</option>
+                        <option value="tw" >TAIWAN</option>
+                        <option value="mo" >MACAO</option>
+                    </select> <img src="../images/merchant-login.png" align="absmiddle" width="18" height="12"><strong><a class="merchant-login" href="https://www.siampay.com/b2c2/eng/merchant/index.jsp" target="_blank">MERCHANT LOGIN</a></strong> <a href="javascript:void(0)" class="search_open"><span style="padding-top:2px; padding-right:5px; display:block; float:left;">SEARCH</span> <img align="absmiddle" src="../images/search-icon.png"></a> </div>
+            </div>
+        </div>
+        <div class="main-nav main-navAni">
+            <div class="container wow fadeInDown">
+                <div class="navbar-header page-scroll">
+                    <div class="menu-toggle">
+                    <a href="javascript:changeurl()">
+                            <img alt="Change Language" title="Change Language" src="../images/lang-md.svg" width="35" height="35">
+                        </a>
+                        <a href="https://www.siampay.com/b2c2/eng/merchant/index.jsp" target="_blank"> <img alt="Merchant Login" title="Merchant Login" src="../images/merchant-md.svg" width="35" height="35"> </a>
+                        <a id="showRightPush"> <img src="../images/menu-toggle.svg" width="35" height="35"> </a>
+                    </div>
+                    <a class="navbar-brand navbar-brandAni" href="index.html"></a>
+                </div>
+                <div class="mynav navbar-right navbar-main-collapse " id="mynav" onselectstart="return false" ondragstart="return false">
+                    <div class="nav-mobile">
+                        <div class="searchbox-mobile">
+                            <script>
+                                (function() {
+                                    var cx = '001043899184284136783:7b6xquxwymq';
+                                    var gcse = document.createElement('script');
+                                    gcse.type = 'text/javascript';
+                                    gcse.async = true;
+                                    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//www.google.com/cse/cse.js?cx=' + cx;
+                                    var s = document.getElementsByTagName('script')[0];
+                                    s.parentNode.insertBefore(gcse, s);
+                                })();
+                            </script>
+                            <gcse:searchbox-only resultsUrl="search-result.html"></gcse:searchbox-only>
+                        </div>
+                        <ul class="nav navbar-nav">
+                            <li>
+                                <a class="mainMenu1"></a>
+                            </li>
+                            <li>
+                                <a class="mainMenu2"></a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="javascript:void(0)" class="mainMenu3 a-icon main-menu services-dt"></a>
+                                <a href="javascript:void(0)" class="mainMenu3 a-icon" id="services-md"></a>
+                                <div id="sub_services" class="onmobile">
+                                    <div class="container content_services content-sub-add">
+                                        <div class="content clearfix">
+                                            <div class="arrow-nav arrow-navAni"></div>
+                                            <div class="dropdown">
+                                                <a class="a-icon back mainMenu3" id="backServices" href="javascript:void(0)"></a>
+                                            </div>
+                                            <div class="col col-sm-12 col-md-12 col-lg-6 clearfix">
+                                                <ul class="sublinks">
+                                                    <li class="subtitle1">
+                                                        <div class="sub-icon1"></div><span class="submenu-title m3title1"></span> <!-- Card Payments -->
+                                                    </li>
+                                                    <li>
+                                                        <a class="m3title1sub1"></a><!-- Credit Card Processing -->
+                                                    </li>
+                                                </ul>
+                                                <ul class="sublinks">
+                                                    <li class="subtitle1">
+                                                        <br><div class="sub-icon2"></div><span class="submenu-title m3title2"></span><!-- Alternative Payments --> 
+                                                    </li>
+                                                    <li>
+                                                        <a class="m3title2sub1"></a><!-- Internet Banking -->
+                                                    </li>
+                                                    <li>
+                                                        <a class="m3title2sub2"></a><!-- Over-the-Counter Payments  -->
+                                                    </li>
+                                                    <li>
+                                                        <a class="m3title2sub3"></a><!-- China Payments  -->
+                                                    </li>
+                                                    <li>
+                                                        <a class="m3title2sub4"></a><!-- PayPal -->
+                                                    </li>
+                                                    
+                                                </ul>
+                                                <!-- Merchant Solutions - already hide in custom.js -->
+                                        <!--         <ul class="sublinks sub3">
+
+                                                    <li class="subtitle1">
+                                                        <div class="sub-icon3"></div><span class="submenu-title m3title3"></span> </li>
+                                                    <li>
+                                                        <a class="m3title3sub1"></a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="m3title3sub2"></a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="m3title3sub3"></a>
+                                                    </li>
+                                                </ul>
+                                     -->       
+                                      </div>
+                                            <div class="col col-sm-12 col-md-12 col-lg-6 clearfix vr">
+                                                <ul class="sublinks">
+                                                    <li class="subtitle1 sub4">
+                                                        <div class="sub-icon4"></div><span class="submenu-title m3title4"></span> </li><!-- Payment Solutions -->
+                                                    <li>
+                                                        <a class="m3title4sub1"></a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="m3title4sub2"></a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="m3title4sub3"></a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="m3title4sub4"></a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="m3title4sub5"></a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="m3title4sub6"></a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="m3title4sub7"></a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="m3title4sub8"></a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="m3title4sub9"></a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            
+                                            <!-- Industry Solutions - already hide in custom.js -->
+                                    <!--      <div class="col col-sm-12 col-md-12 col-lg-4 clearfix vr"> 
+                                                <ul class="sublinks">
+                                                    <li class="subtitle1 sub5">
+                                                        <div class="sub-icon5"></div><span class="submenu-title m3title5"></span> </li> 
+                                                    <li><a class="m3title5sub1"></a></li>
+                                                    <li><a class="m3title5sub2"></a></li>
+                                                    <li><a class="m3title5sub3"></a></li>
+                                                    <li><a class="m3title5sub4"></a></li>
+                                                    <li><a class="m3title5sub5"></a></li>
+                                                    <li><a class="m3title5sub6"></a></li>
+                                                    <li><a class="m3title5sub7"></a></li>
+                                                    <li><a class="m3title5sub8"></a></li>
+                                                    <li><a class="m3title5sub9"></a></li>
+                                                    <li><a class="m3title5sub10"></a></li>
+                                                    <li><a class="m3title5sub11"></a></li>
+                                                    <li><a class="m3title5sub12"></a></li>
+                                                    <li><a class="m3title5sub13"></a></li>
+                                                </ul>
+                                            </div>
+                                      -->        
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <a class="main-menu mainMenu4"></a><!-- Plans - Already hide in Custon.js -->
+                            </li>
+                            <li>
+                                <a class="main-menu mainMenu5"></a> <!-- Referral Program - Already hide in Custon.js -->
+                            </li>
+                            <li class="dropdown ">
+                                <a href="javascript:void(0)" class="a-icon main-menu resources-dt mainMenu6"></a> <a href="javascript:void(0)" class="a-icon main-menu" id="resources-md">Resources</a>
+                                <div id="sub_resources" class="onmobile">
+                                    <div class="container content_resources">
+                                        <div class="content clearfix">
+                                            <div class="arrow-nav arrow-navAni"></div>
+                                            <div class="dropdown">
+                                                <a class="a-icon back mainMenu6" id="backResources" href="javascript:void(0)"></a>
+                                            </div>
+                                            <div class="col col-lg-12 clearfix">
+                                                <ul class="sublinks">
+                                                    <li class="subtitle1"><a class="mainMenu6sub1"><span class="submenu-title"></span></a></li>
+                                                    <li class="subtitle1"><a class="mainMenu6sub2"><span class="submenu-title"></span></a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="dropdown" style="padding-right:9px;">
+                                <a href="javascript:void(0)" class="a-icon main-menu about-dt mainMenu7"></a> <a href="javascript:void(0)" class="a-icon main-menu" id="about-md">About</a>
+                                <div id="sub_about" class="onmobile">
+                                    <div class="container content_about">
+                                        <div class="content clearfix">
+                                            <div class="arrow-nav arrow-navAni"></div>
+                                            <div class="dropdown">
+                                                <a class="a-icon back mainMenu7" id="backAbout" href="javascript:void(0)"></a>
+                                            </div>
+                                            <div class="col col-lg-12 clearfix">
+                                                <ul class="sublinks">
+                                                    <li class="subtitle1"><a class="mainMenu7sub1"><span class="submenu-title"></span></a> </li>
+                                                    <li class="subtitle1"><a class="mainMenu7sub2"><span class="submenu-title"></span></a> </li>    <li class="subtitle1"><a class="mainMenu7sub2_1"><span class="submenu-title"></span></a> </li>
+                                                    <li class="subtitle1"><a class="mainMenu7sub3"><span class="submenu-title"></span></a> </li>
+                                                    <li class="subtitle1"><a class="mainMenu7sub4"><span class="submenu-title"></span></a> </li>
+                                                    <li class="subtitle1"><a class="mainMenu7sub5"><span class="submenu-title"></span></a> </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="getstarted getstartedAni"><a href="get-started.html" class="getstarted-mobile" id="showRightPush">GET STARTED</a> </li>
+                            <li></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+        </div>
+    </nav>
+    <div class="overlay-services"></div>
+    <div class="overlay-resources"></div>
+    <div class="overlay-about"></div>
+    <div id="blue-overlay"> </div>
+    </div>
+    </div>
+    <section class="content-top">
+        <div class="banner creditcard-processing"> <!-- BG CHANGE HERE (style.css บรรทัด620-749) -->
+            <div class="container text-left">
+                <div class="mainVertical"> <span class="vertical-align"> <h3 class="desc text-white " style="width:auto;">PAYMENT SOLUTIONS</h3><h1 class="title-banner text-white">Custom Payment Page</h1> </span></div>
+            </div>
+        </div>
+        <div class="container">
+<!-- ****ICON -->  
+       <div class="ip-icon">
+                <div class="content">
+                
+                    <div class="inner2">
+                      <img src="../images/hi-customizedPayment.png" alt="" width="107" height="118">
+                    </div>
+                </div>
+        </div>
+<!-- ****ICON -->            
+            <!-- <div class="title1 blue text-center">CLIENT PORTFOLIO<div class="ip-title-bottom"></div></div>-->
+            <div class="clearboth" style="height:0px;"></div>
+            
+            <div class="row">
+                
+                <div class="container">
+ <!-- CONTENT 1 -->  
+			     <div class="row hr">
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 text-left content-desc">
+                        <div class="mainVertical"> <span class="vertical-align"> <h3 class="fontSize-30"> Reinforce brand recall throughout
+the checkout experience. </h3> 
+                        <p> Custom Payment Page is a value-added solution for SiamPay which allows merchants to customize the payment page based on their corporate design and branding. This enables businesses to increase brand awareness at the point of purchase. </p>
+                                            </span></div>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 text-center"> <img src="../images/customize-img1.jpg" alt="Automate online payment collection with ease" width="" height="" class="content-img" align="bottom"> </div>
+                </div>
+ <!-- CONTENT 2 -->                  
+                <section id="features" class="features hr paddingtop-20">
+        <div class="container  text-center">
+             <!-- CONTENT 2 - 3BOXS -->
+      <div class="row">    
+            <!-- LEFT BOX -->
+            	<div class="col-sm-4 col-md-4">
+                	<div >
+                    		<div class="fontSize-18 paddingtop-40">
+                    			<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2"><img src="../images/customize_icon1.png" alt="Reinforce Brand Recall"></div>
+                    			<div class="col-lg-10 col-md-10 col-sm-10 col-xs-10 text-left">
+                    				<strong> Reinforce Brand Recall </strong>
+                       			 	<p> A custom payment page helps you reflect and maintain brand consistency throughout the buying process. </p>
+                    			</div>
+                			</div>
+
+                	</div>
+            	</div>
+            <!-- CENTER BOX -->
+            	<div class="col-sm-4 col-md-4">
+            	    <div >
+                    		<div class="fontSize-18 paddingtop-40">
+                    			<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2"><img src="../images/evoucher-icon1.png" alt=" Improve Consumer Trust"></div>
+                    			<div class="col-lg-10 col-md-10 col-sm-10 col-xs-10 text-left">
+                    				<strong> Improve Consumer Trust </strong>
+                       			 	<p> A custom payment page brings your brand to the checkout process which helps boost consumer confidence in completing purchases. </p>
+                    			</div>
+                			</div>
+                	</div>
+            	</div>
+             <!-- RIGHT BOX -->
+            	<div class="col-sm-4 col-md-4">
+               	 <div >
+                    		<div class="fontSize-18 paddingtop-40">
+                    			<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2"><img src="../images/paypal_icon1.png" alt="Convert More Customers "></div>
+                    			<div class="col-lg-10 col-md-10 col-sm-10 col-xs-10 text-left">
+                    				<strong> Convert More Customers </strong>
+                       			 	<p> A custom payment page helps facilitate the creation of a more consistent buyer experience, leading to improved conversion rates. </p>
+                    			</div>
+                			</div>
+                	</div>
+          	  </div>
+         </div > <!-- end div class ROW --> 	         
+         <!-- END OF CONTENT 2 - 3BOXS --> 
+             
+            </div>
+    </section>
+ 
+ <!-- CONTENT 3 -->
+ 
+  <!-- END CONTENT 3 -->
+  
+  <!-- CONTENT4 -->
+  			<section id="features" class="features paddingtop-20">
+        <div class="container  text-center">
+        <h2 class="title1 blue paddingtop-40"> Features </h2>
+             <!-- CONTENT 4 - 3BOXS -->
+      <div class="row">    
+            <!-- LEFT BOX -->
+            	<div class="col-sm-4 col-md-4">
+                	<div >
+                    		<div class="fontSize-18 paddingtop-20">
+                    			<div class="">
+                    <div class="service-pic">
+                        <img src="../images/customize_vector1.png" alt="Easy-to-edit Framework">
+                    </div>
+                    <div>
+                        &nbsp;<div class="service-desc">
+                            <h4 class="title2 blue"><strong> Easy-to-edit Framework </strong></h4> 
+                            <p> Design your payment page based on your brand identity. Edit typography, change colors, add buttons and more. </p>
+                        </div>
+                    </div>
+                </div>
+                			</div>
+
+                	</div>
+            	</div>
+            <!-- CENTER BOX -->
+            	<div class="col-sm-4 col-md-4">
+            	    <div >
+                    		<div class="fontSize-18 paddingtop-20">
+                    			<div class="">
+                    <div class="service-pic">
+                        <img src="../images/customize_vector2.png" alt="Store Multiple Templates ">
+                    </div>
+                    <div>
+                        &nbsp;<div class="service-desc">
+                            <h4 class="title2 blue"><strong> Store Multiple Templates </strong></h4> 
+                            <p> Build, save and manage multiple payment page templates to support different marketing campaigns. </p>
+                        </div>
+                    </div>
+                </div>
+                			</div>
+                	</div>
+            	</div>
+             <!-- RIGHT BOX -->
+            	<div class="col-sm-4 col-md-4">
+               	 <div >
+                    		<div class="fontSize-18 paddingtop-20">
+                    			<div class="">
+                    <div class="service-pic">
+                        <img src="../images/customize_vector3.png" alt="Compatible With Other Solutions">
+                    </div>
+                    <div>
+                        &nbsp;<div class="service-desc">
+                            <h4 class="title2 blue"><strong> Compatible With Other Solutions </strong></h4> 
+                            <p> Integrate additional functions such as electronic vouchers and card promotion into your branded payment page seamlessly. </p>
+                        </div>
+                    </div>
+                </div>
+                			</div>
+                	</div>
+          	  </div>
+         </div > <!-- end div class ROW --> 	         
+         <!-- END OF CONTENT 4 - 3BOXS --> 
+             
+            </div>
+    </section>
+
+  <!-- END CONTENT4 -->
+  
+            </div>
+        </div>
+        
+        
+    </section>
+    <section class="cta-bottom text-center bg-light-gray borderLightGray">
+        <h2> Deliver a consistent buying experience.</h2>
+
+        	<a href="get-started.html"><img src="../images/get-started-1.jpg" alt="Get Started" width="250"></a>
+    </section>
+    <section class="footer bg-polygon-blue mainpage footer-section text-left wow" data-wow-delay="0.4s">
+        <div class="container ">
+            <div class="footer-col bottom-contact col-xs-12 col-sm-12 col-md-12 col-lg-6">
+                <div class="white">
+                    <p class="white title3">Contact</p>
+                    <div class="row marginbot-10 margintop-10">
+                        <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"> <img src="../images/location-icon-white.png" width="16" height="21"> </div>
+                        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-10">R.S.Tower, Unit 121/49, Level 11, Ratchadapisek Road, Dindeang, Bangkok 10400 Thailand</div>
+                    </div>
+                    <div class="row marginbot-10 margintop-10">
+                        <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"> <img src="../images/phone-icon-white.png" width="15" height="16"> </div>
+                        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-10 telno"></div>
+                    </div>
+                    <div class="row marginbot-10 margintop-10">
+                        <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"> <img src="../images/email-icon-white.png" width="21" height="15"> </div>
+                        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-10">
+                            <a class="sales"></a>
+                        </div>
+                    </div>
+                    <div class="smedia margintop-20">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-3 padding-0 ">
+                            <h5 class="white title3 " style="display:block; padding-top:3px; ">Follow Us:</h5> </div>
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-9" style="margin:0px; padding:0px;">
+                            <a href="https://www.facebook.com/siampay" target="_blank"> <img src="../images/fb-icon.png" alt="Facebook" width="" height="" style="padding-left:; padding-right:3px;"> </a>
+                            <a href="https://www.flickr.com/photos/siampay/" target="_blank"> <img src="../images/flickr-icon.png" alt="Flickr" width="" height="" style="padding-left:; padding-right:3px;"> </a>
+                       <!-- <a href="https://twitter.com/pesopay" target="_blank"> <img src="../images/twitter-icon.png" alt="Twitter" width="" height="" style="padding-left:3px; padding-right:3px;"> </a>  --> 
+                            <a href="https://plus.google.com/114524824223527092076" target="_blank"> <img src="../images/googleplus-icon.png" alt="Google Plus" width="" height="" style="padding-left:3px; padding-right:3px;"> </a>
+                       <!--<a href="https://www.linkedin.com/company/pesopay" target="_blank"> <img src="../images/linkendin-icon.png" alt="Linkedin" width="" height="" style="padding-left:3px; padding-right:3px;"> </a>
+                            <a href="https://www.pinterest.com/pesopay/" target="_blank"> <img src="../images/pinterest-icon.png" alt="Pinterest" width="" height="" style="padding-left:3px; padding-right:3px;"> </a>
+                            <a href="https://www.youtube.com/pesopay" target="_blank"> <img src="../images/youtube-icon.png" alt="YouTube" width="" height="" style="padding-left:3px; padding-right:3px;"> </a>
+                          -->    
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-col bottom-about col-xs-12 col-sm-12 col-md-12 col-lg-6">
+                <div class="white">
+                    <p class="white title3">About SiamPay</p>SiamPay is the leading online payment gateway system in Thailand. We provide secure and seamless electronic payment solutions for both SME's and large enterprises.
+                    <br>
+                    <br>Our online payment system delivers reliable merchant services that allow businesses to accept online payments ranging from credit cards, internet banking, cash or over-the-counter payments, e-Wallet payments and PayPal. </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 margintop-20 rights padding-0 margin-10 paddingtop-20">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 padding-0 white"> <a href="privacy-policy.html">PRIVACY POLICY</a> | <a href="disclaimer.html">DISCLAIMER</a> | <a href="cancellation.html">CANCELLATION</a>  </div>
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 white padding-0 cr text-right ">© <span class="cryear"></span> SiamPay.COM. ALL RIGHTS RESERVED</div>
+            </div>
+        </div>
+        <!--  <div class="rights-md">
+            <div class="container"> <a href="privacy-policy.html">PRIVACY POLICY</a> | <a href="disclaimer.html">DISCLAIMER</a> | <a href="cancellation.html">CANCELLATION</a> 
+                <br> <span class="cryear"></span> SiamPay.COM. ALL RIGHTS RESERVED</div>
+        </div> -->
+    </section>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/jquery.easing.min.js"></script>
+    <script src="../js/jquery.scrollTo.js"></script>
+    <script src="../js/jquery-ui.min.js"></script>
+    <script src="../js/jquery.selectbox.js"></script>
+    <script src="../js/wow.min.js"></script>
+    <script src="../js/scroll-function-ip.js"></script>
+    <script src="../js/custom.js"></script>
+    <script src="../js/slide-panel.js"></script>
+    <script src="../js/TweenMax.min.js"></script>
+    <script src="../js/ScrollToPlugin.min.js"></script>
+    <script src="../js/typed.js" type="text/javascript"></script>
+    <script src="../js/jquery.stellar.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+        document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+        var pageTracker = _gat._getTracker("UA-5050337-10");
+        pageTracker._trackPageview();
+    </script>
+</body>
+
+</html>

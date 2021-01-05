@@ -253,10 +253,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="inner-content container">
             <div class="title1 blue text-center">CONTACT US</div>
             <div class="row marginbot-50">
-<div class="cf-col-left col-xs-12 col-sm-12 col-md-6 col-md-offset-3 col-lg-6 col-lg-offset-3">
+<div class="cf-col-left col-xs-12 col-sm-12 col-md-6 col-lg-6">
 <p class="fontSize-20">Drop us an email, give us a call or come by our office. We’d love to talk with you.</p>
 
-<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 <p class="fontSize-18"><strong>Office Address:</strong>
                         <br>
                         <span class="fontSize-16">
@@ -266,8 +265,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                           Bangkok 10400 Thailand<br>
                         </span>
                     </p>
-</div>
-<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+
 <p class="fontSize-18"><strong>Contact
                     Numbers:</strong>
                         <br>
@@ -279,9 +277,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         <br> <span class="fontSize-16">Monday to Friday<br>
                           8:30 A.M. - 17:30 P.M. (Except public holidays)</span>
                     </p>
-</div>
 
-<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 <p class="fontSize-18"><strong>Sales Inquiry / Merchant Application:</strong>
                         <br>
                         <a class="sales fontSize-16"></a>
@@ -291,8 +287,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         <br>
                         <a class="fontSize-16">service@SiamPay.com</a>
                     </p>
-</div>
-<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+
 <p class="fontSize-18"><strong>Follow Us:</strong>
                     </p>
 
@@ -307,7 +302,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <a href="https://www.flickr.com/photos/siampay/" target="_blank"><img alt="Google Plus" height="56" src="../images/flickr-icon-lg.png" width="49"></a>
 </p>
 </div>
-</div>
+
 <script type="text/javascript" src="js/jquery.validate.js"></script>
 <script type="text/javascript">
 	$(document).ready(function(){
@@ -315,10 +310,52 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	});
 </script>
 
+<form action="https://www.siampay.com/b2c2/form/th/enquiryMail-siampay.jsp" method="post" name="enquiryForm" id="enquiryForm">
+	<div class="cf-form cf-col-right col-xs-12 col-sm-12 col-md-6 col-lg-6">
+		<div class="marginbot-20">To send us a message or an inquiry, simply complete the form below and we'll contact you shortly.</div>	
+<input type="hidden" name="maillist" value="sales@siampay.com">
+						<input type="hidden" name="lang" value="E">
+<!--  ****originalfrom pesopay***
+<input name="disableCaptcha" type="hidden" value="T"> 
+<input name="successUrl" type="hidden" value="https://www.pesopay.com/thankyou.html?success=1"> 
+<input name="failUrl" type="hidden" value="https://www.pesopay.com/thankyou.html"> 
+<input name="mailFrom" type="hidden" value="sales@pesopay.com"> 
+<input id="mailTo" name="mailTo" type="hidden" value="sales@pesopay.com"> 
+<input name="mailDescription" type="hidden" value="Someone has sent a message/inquiry through the website. Please see the details below.">
+-->
+<font color="red"><input class="cf-icon1 required fcon" id="name" name="name" placeholder="ชื่อ" type="text" style="color:#000000;text-indent:10px;"></font>
+                        <font color="red"><input class="cf-icon2 email fcon" id="email" name="mail" placeholder="Email" type="text" style="color:#000000;text-indent:15px;"></font>
+                        <font color="red"><input class="cf-icon5 required fcon" id="phone" name="phone" placeholder="Phone number" type="text" style="color:#000000;text-indent:15px;"></font>
+                        <font color="red"><input class="cf-icon3 fcon" id="company" name="companyname" placeholder="Company" type="text" style="color:#000000;text-indent:15px;"></font>                        
+                        <font color="red"><input class="cf-icon4 fcon" id="website" name="website" placeholder="Website" type="text" style="color:#000000;text-indent:15px;"></font>  
+                        <font color="red">
+						<textarea class="cf-icon7 fcon" id="message" name="detail" placeholder="Message" style="color:#000000; height: 84px;text-indent:40px;"></textarea>
+</font>  
+
+                        <div >
+                       
+<input type="hidden" id="mailTitle" name="type" value="solution" />
+
+
+<input type="hidden" class="cf-icon7" id="message" name="detail" placeholder="Your Message" value="message from get-started page" style="color:#000000;">
+
+
+ 
+<input class="cf-icon8 required fcon" type='text' name='vCode' maxlength="5" value="" placeholder="Please enter code below" style="text-indent:15px; color:#000;">
+<img id="captchaId" name="captchaId" src="https://www.siampay.com/b2c2/imgservlet/loginVerification" alt="Verification Code" style="margin-left:42px;margin-bottom: 20px; padding:10px 0px 5px 17px; border: 1px #ddd solid; background-color:#FFF;" >
+						<a href="#" onClick="return reloadImg('captchaId');"><img alt=""  src="https://www.siampay.com/b2c2/images/en/hip_reload.gif" border="0"style="margin-left:10px;margin-bottom: 20px; padding:10px 0px 5px 17px; border: 1px #ddd solid; background-color:#FFF;"></a>
+ </div>
+
+                     <input name="Submit" type="submit" class="g-recaptcha button-blue" value="Submit" data-sitekey="6LdGgdcZAAAAADECMHUdnfLNtYQWGxNp9UfC4-WX" data-callback='onSubmit' data-action='submit' >
+<input name="Submit2" type="reset" class="button-blue" value="Reset" >
+</div>
+
+
+</form>
 <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit"async defer></script>
 </div>
         </div>
-       
+        </div>
     </section>
 	    
 	  <section class="footer bg-polygon-blue mainpage footer-section text-left wow" data-wow-delay="0.4s">
@@ -392,13 +429,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       </script>
 
     <link href="css/select-country.css" rel="stylesheet">
-	
-<script src="http://code.jquery.com/jquery-migrate-3.3.0.min.js"></script>
-<!-- jquery 3.5.0 -->
-<script src="js/jquery-3.5.0.min.js"></script>
-<!-- jquery-migrate 3.3.2 - Migrate older jQuery code to jQuery 3.3.2+-->
-<script src="js/jquery-migrate-3.3.2.min.js" ></script>
-
+	<script src="js/jquery.min.js"></script>
     <script src="js/header2.js"></script>
     <script src="js/jquery-ui.min.js"></script>
     <script src="js/jquery.selectbox.js"></script>
