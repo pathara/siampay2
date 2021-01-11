@@ -82,7 +82,7 @@ $("select").selectBoxIt({
     }),
     function(e) {
         (new WOW).init(), jQuery(window).load(function() {
-            jQuery("#preloader").delay(10000000).fadeOut("#slow"), jQuery("#load").delay(10000000).fadeOut("#slow")
+            jQuery("#preloader").delay(1).fadeOut("#slow"), jQuery("#load").delay(1).fadeOut("#slow")
         }), e(function() {
             e(".navbar-nav li a").bind("click", function(o) {
                 var s = e(this);
