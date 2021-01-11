@@ -82,7 +82,7 @@ $("select").selectBoxIt({
     }),
     function(e) {
         (new WOW).init(), jQuery(window).load(function() {
-            jQuery("#preloader").delay(1).fadeOut("#slow"), jQuery("#load").delay(1).fadeOut("#slow")
+            jQuery("preloader").delay(100).fadeOut("slow"), jQuery("load").delay(100).fadeOut("slow")
         }), e(function() {
             e(".navbar-nav li a").bind("click", function(o) {
                 var s = e(this);
@@ -109,11 +109,11 @@ $("select").selectBoxIt({
     }), $(".overlay-about").click(function() {
         $(".overlay-about").fadeToggle("fast"), $("#sub_about").removeClass("dtAni"), $("#sub_about").css("display", "none")
     }), $(".services-dt").click(function() {
-        $("#sub_services").fadeToggle("fast"), $("#sub_resources").removeClass("dtAni"), $("#sub_about").removeClass("dtAni"), $("#sub_resources").css("display", "none"), $("#sub_about").css("display", "none"), $(".overlay-services").fadeToggle("fast"), $(".overlay-resources").css("display", "none"), $(".overlay-about").css("display", "none")
+        $("#sub_services").fadeToggle("fast"), $("#sub_resources").removeClass("dtAni"), $("#sub_about").removeClass("dtAni"), $("#sub_resources").css("display", "block"), $("#sub_about").css("display", "block"), $(".overlay-services").fadeToggle("fast"), $(".overlay-resources").css("display", "block"), $(".overlay-about").css("display", "block")
     }), $(".resources-dt").click(function() {
-        $("#sub_resources").fadeToggle("fast"), $("#sub_services").removeClass("dtAni"), $("#sub_about").removeClass("dtAni"), $("#sub_services").css("display", "none"), $("#sub_about").css("display", "none"), $(".overlay-resources").fadeToggle("fast"), $(".overlay-services").css("display", "none"), $(".overlay-about").css("display", "none")
+        $("#sub_resources").fadeToggle("fast"), $("#sub_services").removeClass("dtAni"), $("#sub_about").removeClass("dtAni"), $("#sub_services").css("display", "block"), $("#sub_about").css("display", "block"), $(".overlay-resources").fadeToggle("fast"), $(".overlay-services").css("display", "block"), $(".overlay-about").css("display", "block")
     }), $(".about-dt").click(function() {
-        $("#sub_about").fadeToggle("fast"), $("#sub_services").removeClass("dtAni"), $("#sub_resources").removeClass("dtAni"), $("#sub_services").css("display", "none"), $("#sub_resources").css("display", "none"), $(".overlay-about").fadeToggle("fast"), $(".overlay-resources").css("display", "none"), $(".overlay-services").css("display", "none")
+        $("#sub_about").fadeToggle("fast"), $("#sub_services").removeClass("dtAni"), $("#sub_resources").removeClass("dtAni"), $("#sub_services").css("display", "block"), $("#sub_resources").css("display", "block"), $(".overlay-about").fadeToggle("fast"), $(".overlay-resources").css("display", "block"), $(".overlay-services").css("display", "block")
     }), $(".mrppCorpMenu").click(function() {
         $(".mrppCorpDesc").fadeIn("slow"), $(".mrppSubNav").fadeIn("slow"), $(".mrppNavMain").fadeOut("slow"), $(".mrppIndiSubMenu .imgbtn").addClass("disable")
     }), $(".mrppIndiMenu").click(function() {
