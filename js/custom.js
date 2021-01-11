@@ -97,7 +97,7 @@ $("select").selectBoxIt({
             })
         })
     }(jQuery), $(".search_open").click(function() {
-        $("#navbar").css("margin-top", "100px"), $(".intro").css("margin-top", "100px"), $(".search_open").css("display", "none")
+        $("#navbar").css("margin-top", "1000px"), $(".intro").css("margin-top", "1000px"), $(".search_open").css("display", "none")
     }), $(".search_close").click(function() {
         $("#navbar").css("margin-top", "0px"), $(".intro").css("margin-top", "0px"), $(".search_open").css("display", "block")
     }), $(".search-close-btn").click(function() {
