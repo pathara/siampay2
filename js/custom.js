@@ -109,7 +109,7 @@ $("select").selectBoxIt({
     }), $(".overlay-about").click(function() {
         $(".overlay-about").fadeToggle("fast"), $("#sub_about").removeClass("dtAni"), $("#sub_about").css("display", "none")
     }), $(".services-dt").click(function() {
-        $("#sub_services").fadeToggle("fast"), $("#sub_resources").removeClass("dtAni"), $("#sub_about").removeClass("dtAni"), $("#sub_resources").css("display", "block"), $("#sub_about").css("display", "block"), $(".overlay-services").fadeToggle("fast"), $(".overlay-resources").css("display", "block"), $(".overlay-about").css("display", "block")
+        $("#sub_services").fadeToggle("fast"), $("#sub_resources").removeClass("dtAni"), $("#sub_about").removeClass("dtAni"), $("#sub_resources").css("display", "block"), $("#sub_about").css("display", "none"), $(".overlay-services").fadeToggle("fast"), $(".overlay-resources").css("display", "none"), $(".overlay-about").css("display", "none")
     }), $(".resources-dt").click(function() {
         $("#sub_resources").fadeToggle("fast"), $("#sub_services").removeClass("dtAni"), $("#sub_about").removeClass("dtAni"), $("#sub_services").css("display", "block"), $("#sub_about").css("display", "block"), $(".overlay-resources").fadeToggle("fast"), $(".overlay-services").css("display", "block"), $(".overlay-about").css("display", "block")
     }), $(".about-dt").click(function() {
