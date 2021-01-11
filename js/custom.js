@@ -109,11 +109,11 @@ $("select").selectBoxIt({
     }), $(".overlay-about").click(function() {
         $(".overlay-about").fadeToggle("fast"), $("#sub_about").removeClass("dtAni"), $("#sub_about").css("display", "none")
     }), $(".services-dt").click(function() {
-        $("#sub_services").fadeToggle("fast"), $("#sub_resources").removeClass("dtAni"), $("#sub_about").removeClass("dtAni"), $("#sub_resources").css("display", "none"), $("#sub_services").css("display", "block"), $("#sub_about").css("display", "none"), $(".overlay-services").fadeToggle("fast"), $(".overlay-resources").css("display", "none"), $(".overlay-about").css("display", "none")
+        $("#sub_services").fadeToggle("fast"), $("#sub_resources").removeClass("dtAni"), $("#sub_about").removeClass("dtAni"), $("#sub_resources").css("display", "none"), $("#sub_about").css("display", "none"), $(".overlay-services").fadeToggle("fast"), $(".overlay-resources").css("display", "none"), $(".overlay-about").css("display", "none")
     }), $(".resources-dt").click(function() {
-        $("#sub_resources").fadeToggle("fast"), $("#sub_services").removeClass("dtAni"), $("#sub_about").removeClass("dtAni"), $("#sub_services").css("display", "none"), $("#sub_resoures").css("display", "block"), $("#sub_about").css("display", "none"), $(".overlay-resources").fadeToggle("fast"), $(".overlay-services").css("display", "none"), $(".overlay-about").css("display", "none")
+        $("#sub_resources").fadeToggle("fast"), $("#sub_services").removeClass("dtAni"), $("#sub_about").removeClass("dtAni"), $("#sub_services").css("display", "none"), $("#sub_about").css("display", "none"), $(".overlay-resources").fadeToggle("fast"), $(".overlay-services").css("display", "none"), $(".overlay-about").css("display", "none")
     }), $(".about-dt").click(function() {
-        $("#sub_about").fadeToggle("fast"), $("#sub_services").removeClass("dtAni"), $("#sub_resources").removeClass("dtAni"), $("#sub_services").css("display", "none"), $("#sub_about").css("display", "block"), $("#sub_resources").css("display", "none"), $(".overlay-about").fadeToggle("fast"), $(".overlay-resources").css("display", "none"), $(".overlay-services").css("display", "none")
+        $("#sub_about").fadeToggle("fast"), $("#sub_services").removeClass("dtAni"), $("#sub_resources").removeClass("dtAni"), $("#sub_services").css("display", "none"), $("#sub_resources").css("display", "none"), $(".overlay-about").fadeToggle("fast"), $(".overlay-resources").css("display", "none"), $(".overlay-services").css("display", "none")
     }), $(".mrppCorpMenu").click(function() {
         $(".mrppCorpDesc").fadeIn("slow"), $(".mrppSubNav").fadeIn("slow"), $(".mrppNavMain").fadeOut("slow"), $(".mrppIndiSubMenu .imgbtn").addClass("disable")
     }), $(".mrppIndiMenu").click(function() {
