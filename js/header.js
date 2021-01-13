@@ -29,7 +29,7 @@ $('.mainMenu2').addClass('main-menu');
 $('.mainMenu3').html('ผลิตภัณฑ์');
 $('.mainMenu3').addClass('main-menu');
 // Menu3 Sub //
-$('.m3title1').html('ชำระเงินด้วยบัตร');
+$('.m3title1').html('ชำระเงินด้วยบัตร112');
 $('.m3title1sub1').html('บริการชำระเงินด้วยบัตรเครดิต');
 $('.m3title1sub1').attr('href', 'credit-card-processing.html');
 $('.m3title2').html('บริการชำระเงินรูปแบบอื่นๆ');

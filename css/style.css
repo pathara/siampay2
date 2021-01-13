@@ -1,11 +1,13 @@
 ﻿@import url('http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800');
 @import url('http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic|Montserrat:300|Merriweather:400italic');
 @import url("https://fonts.googleapis.com/css?family=Roboto:400,900italic,900,700italic,700,500italic,500,400italic,300italic,300,100italic,100' rel='stylesheet' type='text/css");
+@import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import url(thaifonts/thsarabunnew.css);
+@import url(thaifonts/prompt.css);
 
 
 html {
-    font-family: sans-serif;
+    font-family:'Prompt', sans-serif;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
 }
@@ -10421,3 +10423,8 @@ span.vertical-align{display:inline-block;vertical-align:middle;line-height:norma
 }
 
 /*Cookie Consent End*/
+
+
+.prompt{
+   font-family: 'Prompt', sans-serif;
+}
