@@ -38,10 +38,6 @@
 	<meta itemprop="name" content="ท่านสามารถติดต่อเราได้ทางช่องทางต่างๆต่อไปนี้" />
 
 	<link href="css/style.css" rel="stylesheet">
-
-
-
-
 	<link rel="shortcut icon" href="images/siampay.ico">
 	<script id="inspectletjs" type="text/javascript">
 		window.__insp = window.__insp || [];
@@ -59,19 +55,6 @@
 			document.readyState != "complete" ? (window.attachEvent ? window.attachEvent('onload', ldinsp) : window.addEventListener('load', ldinsp, false)) : ldinsp();
 		})();
 	</script>
-
-	<script src="js/mailer.js">
-	</script>
-
-	<script type="text/javascript">
-		function reloadImg(id) {
-			document[id].src = document[id].src + '?' + (new Date()).getTime();
-			return false;
-		}
-	</script>
-	<link href="css/select-country.css" rel="stylesheet">
-
-
 	<!-- jquery 3.5.0 -->
 	<script src="js/jquery-3.5.0.min.js"></script>
 	<!-- jquery-migrate 3.3.2 - Migrate older jQuery code to jQuery 3.3.2+-->
@@ -82,11 +65,23 @@
 	<script src="js/custom.js"></script>
 	<script src="js/TweenMax.min.js"></script>
 
+	<script>
+  function resizeIframe(obj) {
+    obj.style.height = obj.contentWindow.document.documentElement.scrollHeight + 'px';
+  }
+</script>
+<script>
+window.onload = function() {
+   let myiFrame = document.getElementById("myiFrame");
+   let doc = myiFrame.contentDocument;
+   doc.body.innerHTML = doc.body.innerHTML + '<style>p {color:#000 !important;} </style>';
+}
+</script>
 
 
 </head>
 
-<body id="page-top" data-spy="scroll" data-target=".navbar-custom" class="cbp-spmenu-push ">
+<body id="page-top">
 	<!-- Google Tag Manager (noscript) -->
 	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PQ75XC6" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	<!-- End Google Tag Manager (noscript) -->
@@ -132,7 +127,7 @@
 						<div class="nav-mobile">
 							<div class="searchbox-mobile"></div>
 							<a class="navbar-brand-m" href="https://www.siampay.com/"></a>
-							<ul class="nav navbar-nav">
+							<ul class="nav navbar-nav" style="color:#333333!important;">
 								<li>
 									<a class="mainMenu1"></a>
 								</li>
@@ -256,7 +251,7 @@
 										</div>
 									</div>
 								</li>
-								<li class="getstarted getstartedAni"><a href="https://www.siampay.com/get-started.html" class="getstarted-mobile" id="showRightPush">ติดต่อ / สอบถาม</a>
+								<li class="getstarted getstartedAni"><a href="enquiry.html" class="getstarted-mobile" id="showRightPush">ติดต่อ / สอบถาม</a>
 								</li>
 								<li></li>
 							</ul>
@@ -273,23 +268,16 @@
 
 	<section class="content-top">
 		<div class="inner-content container">
-			<div class="title1 blue text-center paddingtop-100">ติดต่อเรา</div>
-			<div class="row marginbot-50">
+		<br>
+			<!--<div class="title1 blue text-center paddingtop-50 paddingbot-50"></div>
+			  --><br>
+			<div class="row marginbot-20">
 
-				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="left: 0px; top: 0px">
-					<iframe src="https://form.asiapay.com/forms/MerchantEnquiryServlet?lang=th&from=siampay.com" frameborder="0" scrolling="" onload="resizeIframe(this)" style="width:100%; height:100%;" allowfullscreen></iframe>
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+					 <iframe src="https://form.asiapay.com/forms/MerchantEnquiryServlet?lang=th&from=siampay.com" frameborder="0" scrolling="" onload="resizeIframe(this)" style="width:100%;  height:1080px;" allowfullscreen></iframe>
+			
+
 				</div>      
-
-
-
-				<script type="text/javascript" src="js/jquery.validate.js"></script>
-				<script type="text/javascript">
-					$(document).ready(function() {
-						$("#enquiryForm").validate();
-					});
-				</script>
-
-
 			</div>
 		</div>
 	</section>
@@ -365,9 +353,6 @@
 		}
 		window.onload = init;
 	</script>
-
-	<link href="css/select-country.css" rel="stylesheet">
-
 
 	<!-- jquery 3.5.0 -->
 	<script src="js/jquery-3.5.0.min.js"></script>
