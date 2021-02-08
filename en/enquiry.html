@@ -55,9 +55,6 @@ window.onload = function() {
 }
 </script>
 
-
-
-
 </head>
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-custom" class="cbp-spmenu-push">
@@ -110,7 +107,7 @@ window.onload = function() {
 						<div class="nav-mobile">
 							<div class="searchbox-mobile"></div>
 							<a class="navbar-brand-m" href="https://www.siampay.com/en/"></a>
-							<ul class="nav navbar-nav">
+							<ul class="nav navbar-nav" style="color:#333333!important;">
 								<li>
 									<a class="mainMenu1"></a>
 								</li>
@@ -252,17 +249,16 @@ window.onload = function() {
 	<section class="content-top">
 		<div class="inner-content container">
 		<br>
-			<div class="title1 blue text-center paddingtop-100 paddingbot-50"></div>
-			<br>
-			<div class="row marginbot-50">
+			<!-- <div class="title1 blue text-center paddingtop-50 paddingbot-50"></div>
+			 --><br>
+			<div class="row marginbot-20">
 
 
 
 				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-					<iframe src="https://form.asiapay.com/forms/MerchantEnquiryServlet?lang=en&from=siampay.com"></iframe>
+					<iframe src="https://form.asiapay.com/forms/MerchantEnquiryServlet?lang=en&from=siampay.com" frameborder="0" scrolling="" onload="resizeIframe(this)" style="width:100%; height:1080px;" allowfullscreen></iframe>
 				</div>
-				
-			</div>
+				</div>
 		</div>
 
 	</section>
@@ -327,7 +323,17 @@ window.onload = function() {
 		</div>
 	</section>
 
-	
+	<script>
+		function init() {
+			var imgDefer = document.getElementsByTagName('img');
+			for (var i = 0; i < imgDefer.length; i++) {
+				if (imgDefer[i].getAttribute('data-src')) {
+					imgDefer[i].setAttribute('src', imgDefer[i].getAttribute('data-src'));
+				}
+			}
+		}
+		window.onload = init;
+	</script>
 	<!-- jquery 3.5.0 -->
 	<script src="js/jquery-3.5.0.min.js"></script>
 	<!-- jquery-migrate 3.3.2 - Migrate older jQuery code to jQuery 3.3.2+-->
